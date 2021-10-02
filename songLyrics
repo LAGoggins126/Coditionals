@@ -1,13 +1,23 @@
-//create a function that uses your favorite song lyrics
+//This exercise is to create a function that uses your favorite song lyrics
+//we will use Math.Random and Math.floor to randomize whether or not our concatenation works
 
+//create a function called songLyrics
 function songLyrics() {
 
+    //create a variable for concatenation
+    //this variable will need to ce able to change
     let concatSong = [];
+    
+    //create a variable for the first line of the song; this can be a constant.
     const singToMe1 = [];
+    
+    //create a variable for the second line of the song; this can be a constant.
     const singToMe2 = [];
+    
+    //create a variable for the third line of the song; this can be a constant.
     const singToMe3 = [];
 
-
+    create a function for the first line
     if (Math.floor(Math.random()* 10) >= 5) {
     // console.log("good for you ");
         singToMe1.push("good for you ");
@@ -16,6 +26,7 @@ function songLyrics() {
         console.log("nope");
     }
 
+    create a function for the second line
     if (Math.floor(Math.random()* 10) <= 8) {
     // console.log("you look happy and healthy ");
         singToMe2.push("you look happy and healthy ");
@@ -24,6 +35,7 @@ function songLyrics() {
         console.log("nope");
     }
 
+    create a function for the third line
     if (Math.floor(Math.random()* 10) >= 2 ) {
     // console.log("Not me, if you ever cared to ask");
         singToMe3.push("Not me, if you ever cared to ask");
