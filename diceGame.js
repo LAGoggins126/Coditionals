@@ -18,8 +18,10 @@ function diceGame() {
     
         //start an if then statement that sets conditions for dice1
         if (dice1 < 6){
+            dice1 = "winner";
             console.log("winner");
         } else {
+            dice1 = "loser";
             console.log("loser");
         }
         //console.log 'winner' if it meets the conditions
@@ -33,8 +35,10 @@ function diceGame() {
     function secondRoll() {
         //start an if then statement that sets conditions for dice2
         if (dice2 < 6){
+            dice2 = "winner";
             console.log("winner");
         } else {
+            dice2 = "loser";
             console.log("loser");
         }
             //console.log 'winner' if it meets the conditions
@@ -44,7 +48,11 @@ function diceGame() {
       
     }
 
-    //make sure to call your functions for first roll and second roll
+    if (dice1 === "winner" && dice2 ===  "winner"){
+        console.log("you're a winner");
+    } else {
+        console.log("you're a loser");
+    }
     
 }
 
