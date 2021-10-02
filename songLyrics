@@ -1,0 +1,39 @@
+//create a function that uses your favorite song lyrics
+
+function songLyrics() {
+
+    let concatSong = [];
+    const singToMe1 = [];
+    const singToMe2 = [];
+    const singToMe3 = [];
+
+
+    if (Math.floor(Math.random()* 10) >= 5) {
+    // console.log("good for you ");
+        singToMe1.push("good for you ");
+        console.log(singToMe1);
+    } else {
+        console.log("nope");
+    }
+
+    if (Math.floor(Math.random()* 10) <= 8) {
+    // console.log("you look happy and healthy ");
+        singToMe2.push("you look happy and healthy ");
+        console.log(singToMe2);
+    } else {
+        console.log("nope");
+    }
+
+    if (Math.floor(Math.random()* 10) >= 2 ) {
+    // console.log("Not me, if you ever cared to ask");
+        singToMe3.push("Not me, if you ever cared to ask");
+        console.log(singToMe3);
+    } else {
+        console.log("nope");
+    }
+
+concatSong = concatSong.concat(singToMe1, singToMe2, singToMe3);
+console.log(concatSong);
+}
+
+songLyrics();
