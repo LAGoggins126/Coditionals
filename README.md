@@ -17,3 +17,7 @@ Conditionals control the behavior in javascript, by applying a set of conditions
 *condition
 *variable
 *code block
+
+## Resources
+https://www.javascript.com/learn/conditionals
+http://nestacms.com/docs/creating-content/markdown-cheat-sheet
