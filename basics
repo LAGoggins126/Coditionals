@@ -2,6 +2,7 @@
 //if is the keyword that tells JavaScript to start the conditional
 //(7 < 10) is the condition to test
 //{} contains the code block; this is what JavaScript will run
+
 if (7 < 10) {
     console.log (true);
 //this wiill only occur if the statement is false
